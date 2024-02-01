@@ -1,0 +1,19 @@
+.brand {
+    font-family: 'Archivo Black';
+    font-size: 48px;
+    color: pink;
+    text-align: left;
+}
+
+.picture-size {
+    height:40px;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1px;
+    justify-content: centered;
+    background: black;
+  }
