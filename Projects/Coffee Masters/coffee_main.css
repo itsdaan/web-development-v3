@@ -3,7 +3,7 @@
   padding-left: 20px;
   padding-right: 70px;
   float: left;
-  color: pink;
+  color: #ee6c4d;
 }
 
 .picture-size {
@@ -13,9 +13,16 @@
   
 }
 
+body {
+
+  background: #e0fbfc;
+  padding: 30px;
+
+}
+
 .group {
 display: flex;
 align-items: center;
 justify-content: center;
-background: black;
+background: #98c1d9;
 }
