@@ -1,23 +1,21 @@
-* {
-    box-sizing: border-box;
-  }
-
 .brand {
-    font-family: 'Archivo Black';
-    font-size: 48px;
-    color: pink;
-    text-align: left;
+  font-size: 40px;
+  padding-left: 20px;
+  padding-right: 70px;
+  float: left;
+  color: pink;
 }
 
 .picture-size {
-    height:40px;
+  max-width: 20%;
+  max-height: auto;
+  float: right;
+  
 }
 
-.grid {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 1px;
-    justify-content: centered;
-    background: black;
-  }
+.group {
+display: flex;
+align-items: center;
+justify-content: center;
+background: black;
+}
