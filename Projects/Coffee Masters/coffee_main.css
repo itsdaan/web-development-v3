@@ -42,8 +42,8 @@
 .items{
   grid-area: items;
   background: #98c1d9;
-  margin-right: 10px;
   margin-top: 10px;
+  margin-right: 10px;
 }
 
 .name {
