@@ -1,32 +1,83 @@
-.brand {
-  font-family: "Archivo Black", sans-serif;
-  font-weight: 400;
-  font-size: 40px;
-  padding-left: 20px;
-  padding-right: 70px;
-  float: left;
-  color: #ee6c4d;
+* {
+  box-sizing: border-box;
 }
 
-.picture-size {
-  max-width: 20%;
-  max-height: auto;
-  float: right;
-  
-}
-
-body {
-
-  background: #e0fbfc;
+.main {
   font-family: "Inter";
   font-weight: 400;
   color: #293241;
-
+  display: grid;
+  grid-template-areas:
+  "nav-bar  nav-bar"
+  "items  name"
+  "items payment"
+  "subtotal subtotal"
+  "button  button";
 }
 
 .group {
-display: flex;
-align-items: center;
-justify-content: center;
-background: #98c1d9;
+    grid-area: nav-bar;
+    background: #98c1d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+  .brand {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 70px;
+    float: left;
+    color: #ee6c4d;
+    }
+
+.picture-size {
+    max-width: 20%;
+    max-height: auto;
+    float: right;
+}
+
+.items{
+    grid-area: items;
+    background: #98c1d9;
+    margin-right: 10px;
+    margin-top: 10;
+  }
+
+  .name {
+    grid-area: name;
+    background: #98c1d9;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+  }
+
+  .payment {
+    grid-area: payment;
+    background: #98c1d9;
+    margin-left: 10px;
+    margin-top: 10;
+    
+  }
+
+  .subtotal {
+    grid-area: subtotal;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button {
+    grid-area: button;
+    margin-left: stretch;
+  }
+
+body {
+  background: #e0fbfc;
+}
+
+.frames {
+  justify-content: space-around;
 }
