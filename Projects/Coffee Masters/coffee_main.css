@@ -23,7 +23,7 @@
     justify-content: center;
     }
 
-  .brand {
+.brand {
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-size: 40px;
@@ -43,7 +43,7 @@
     grid-area: items;
     background: #98c1d9;
     margin-right: 10px;
-    margin-top: 10;
+    margin-top: 10px;
   }
 
   .name {
@@ -59,7 +59,7 @@
     grid-area: payment;
     background: #98c1d9;
     margin-left: 10px;
-    margin-top: 10;
+    margin-top: 10px;
     
   }
 
