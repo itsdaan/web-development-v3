@@ -23,7 +23,7 @@
     justify-content: center;
     }
 
-.brand {
+  .brand {
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-size: 40px;
@@ -40,38 +40,41 @@
 }
 
 .items{
-  grid-area: items;
-  background: #98c1d9;
-  margin-top: 10px;
-  margin-right: 10px;
-}
-
-.name {
-  grid-area: name;
-  background: #98c1d9;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-top: 10px;
-
+    grid-area: items;
+    background: #98c1d9;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 200px;
+    padding: 15px;
+    border-radius: 5px;
   }
 
-  .payment {
+.name {
+    grid-area: name;
+    background: #98c1d9;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+.payment {
     grid-area: payment;
     background: #98c1d9;
-    margin-left: 10px;
-    margin-top: 10px;
+    padding: 15px;
+    border-radius: 5px;
     
   }
 
-  .subtotal {
+.subtotal {
+    margin-top: 100px;
     grid-area: subtotal;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .button {
+.button {
     grid-area: button;
-    margin-left: stretch;
   }
 
 body {
@@ -80,4 +83,44 @@ body {
 
 .frames {
   justify-content: space-around;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    justify-content: start;
+}
+
+.example-group {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+
+.example-input {
+    background-color: #98c1d9;
+    border-color: #293241;
+    padding: 15px;
+    border-radius: 30px;
+  }
+
+.input-label {
+    background-color: #98c1d9;
+    color: #293241;
+    font-size: 12px;
+    position: absolute;
+    left: 25px;
+    top: -7.5px;
+    padding: 2px;
+  }
+
+::placeholder { 
+   color: #293241;
+   font-size: 12px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-left: 20px;
 }
