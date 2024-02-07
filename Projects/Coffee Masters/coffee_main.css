@@ -75,7 +75,20 @@
 
 .button {
     grid-area: button;
+    text-align: center;
+
   }
+
+button {
+    font-size: 16px;
+    border: 5;
+    background-color: #98c1d9;
+    border-radius: 30px;
+    border-color: #293241;
+    padding: 12px 300px;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
 
 body {
   background: #e0fbfc;
