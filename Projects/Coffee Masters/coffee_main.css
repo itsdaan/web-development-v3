@@ -136,6 +136,12 @@ h3 {
     margin-left: 20px;
 }
 
+td {
+  display: table-cell;
+  vertical-align: top;
+  unicode-bidi: isolate;
+}
+
 .oname {
   font-weight: bold;
 }
