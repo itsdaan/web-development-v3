@@ -139,7 +139,11 @@ h3 {
 td {
   display: table-cell;
   vertical-align: top;
-  unicode-bidi: isolate;
+  border: solid;
+  border-top: none;
+  border-width: 2px 0;
+  padding: 1em;
+
 }
 
 .oname {
