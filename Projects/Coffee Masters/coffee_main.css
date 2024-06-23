@@ -152,6 +152,11 @@ td {
 
 .oproperty {
   font-family: "Arial";
-  font-weight: 100;
+  font-style: italic;
   color: #293241;
+}
+
+.oprice {
+  text-align: right;
+  font-weight: bold;
 }
