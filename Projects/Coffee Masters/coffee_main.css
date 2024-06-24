@@ -143,6 +143,7 @@ td {
     border-top: none;
     border-bottom: 1px solid #293241;
     padding: 1em;
+    vertical-align: top;
 
 }
 
@@ -164,3 +165,7 @@ td {
 tr:last-child > td {
   border-bottom: 0;
 }
+
+td:first-child { 
+  width: 1%;
+  }
