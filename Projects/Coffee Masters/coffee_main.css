@@ -99,8 +99,10 @@ body {
 
 table {
     width: 100%;
+    border-spacing: 0;
     text-align: left;
     justify-content: start;
+    border-collapse: collapse;
 }
 
 .example-group {
@@ -159,3 +161,6 @@ td {
   font-weight: bold;
 }
 
+tr:last-child > td {
+  border-bottom: 0;
+}
