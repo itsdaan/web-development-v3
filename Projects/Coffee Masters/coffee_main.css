@@ -137,12 +137,10 @@ h3 {
 }
 
 td {
-  display: table-cell;
-  vertical-align: top;
-  border: solid;
-  border-top: none;
-  border-width: 2px 0;
-  padding: 1em;
+    display: table-cell;
+    border-top: none;
+    border-bottom: 1px solid #293241;
+    padding: 1em;
 
 }
 
@@ -160,3 +158,4 @@ td {
   text-align: right;
   font-weight: bold;
 }
+
