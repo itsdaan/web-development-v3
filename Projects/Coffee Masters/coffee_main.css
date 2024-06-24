@@ -118,6 +118,14 @@ table {
     border-radius: 30px;
   }
 
+  input:active {
+    width: auto;   
+}
+
+input:focus {
+    min-width: 200px;
+}
+
 .input-label {
     background-color: #98c1d9;
     color: #293241;
