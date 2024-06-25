@@ -120,6 +120,8 @@ table {
     border-color: #293241;
     padding: 15px;
     border-radius: 30px;
+    width: 100%;
+    box-sizing: border-box;
   }
 
 .input-label {
