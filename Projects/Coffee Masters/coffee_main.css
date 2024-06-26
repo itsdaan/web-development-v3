@@ -13,6 +13,7 @@
 }
 
 .group {
+    position: fixed;
     grid-area: nav-bar;
     background: #98c1d9;
     display: flex;
