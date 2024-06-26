@@ -14,6 +14,7 @@
 
 .group {
     position: fixed;
+    width: 100%;
     grid-area: nav-bar;
     background: #98c1d9;
     display: flex;
